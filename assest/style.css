@@ -1,0 +1,208 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    width: 100%;
+}
+
+.navbar{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: 300;
+}
+.start h2{
+    font-weight: 300;
+    cursor: pointer;
+}
+.fa-solid.fa-bars{
+    display: none;
+}
+.hos{
+    display: flex;
+}
+.HOS{
+    display: flex;
+}
+.hos li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    padding: 20px 15px;
+    color: black;
+}
+.hos .cart{
+    padding: 12px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.shop-in-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(33,37,41,255);
+    color: white;
+    padding: 5rem;
+}
+@media only screen and (max-width: 768px) {
+    .fa-solid.fa-bars{
+        display: flex;
+    }
+    .hos{
+        display: none;
+    }
+    
+}
+.shop-in-style h2{
+    font-size: 4rem;
+}
+.shop-in-style p{
+    font-size: 1.5rem;
+    color: rgba(144,146,148,255);
+}
+   
+.card{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns:auto auto auto auto;
+    margin: 5rem 0rem;
+    gap: 3rem;
+}
+@media only screen and (max-width: 768px) {
+    .card{
+        grid-template-columns:auto auto auto;
+    }
+    
+}
+@media only screen and (max-width: 425px) {
+    .card{
+        grid-template-columns:auto auto;
+    }
+    
+}
+
+
+.card .card1{
+    border: 2px solid lightgray;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+   
+}
+.card .item{
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+}
+.card .price{
+    padding-bottom: 3rem;
+}
+.card .add{
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: 1px solid rgba(63,78,89,255);
+    margin-bottom: 1.5rem;
+}
+.add a{
+    color: rgba(63,78,89,255);
+    font-size: 1rem;
+}
+.card .card2{
+    border: 2px solid lightgray;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    
+}
+.card2 i{
+    position: absolute;
+    font-size: 0.75rem;
+}
+
+.card .card3{
+    border: 2px solid lightgray;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    
+}
+
+.card .card4{
+    border: 2px solid lightgray;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    
+}
+
+.card .card5{
+    border: 2px solid lightgray;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    
+}
+
+.card .card6{
+    border: 2px solid lightgray;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    
+}
+
+.card .card7{
+    border: 2px solid lightgray;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    
+}
+
+.card .card8{
+    border: 2px solid lightgray;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    
+}
+.footer .end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(33,37,41,255);
+    color: white;
+    padding: 3rem 0rem;
+}
